@@ -1,0 +1,560 @@
+* {
+    font-family: poppins;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3aa6b9;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  .logo {
+    width: 100px;
+    padding-left: 25px;
+  }
+  .pesquisa {
+    border: 2px solid transparent;
+    border-radius: 20px;
+    width: 450px;
+    padding: 15px;
+  }
+  .nav-ul {
+    display: flex;
+    list-style: none;
+    column-gap: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    font-size: 23px;
+    transition: linear 0.5s;
+  }
+  .rosa {
+    color: #ff9eaa;
+  }
+  
+  .branco {
+    color: white;
+  }
+  .amarelo {
+    color: #e9b824;
+  }
+  body {
+    background-image: url(imagnes/visualizacao-3d-das-pecas-do-quebra-cabeca.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .main-text {
+    padding: 80px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+  }
+  .azul {
+    color: #3aa6b9;
+  }
+  .verde {
+    color: #0ec259;
+  }
+  
+  .main-content {
+    display: flex;
+    padding: 50px;
+    background-color: aqua;
+    justify-content: space-evenly;
+    height: 30vh;
+  }
+  
+  .main-paragrafo {
+    width: 45%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  h3 {
+    font-size: 40px;
+    color: purple;
+  }
+  
+  iframe {
+    border-radius: 10px;
+  }
+  .second-content {
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    justify-content: space-evenly;
+    height: 30vh;
+  }
+  .second-img {
+    height: 60vh;
+  
+    padding-bottom: 200px;
+  }
+  .second-main {
+    background-color: #c176b5;
+    height: 55vh;
+    margin-top: 250px;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    column-gap: 20px;
+    padding-right: 35px;
+  }
+  .second-main-container {
+    display: flex;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 450px;
+    padding-right: 50px;
+    padding-top: 35px;
+    background-color: #3aa6b9;
+    justify-content: center;
+    border-radius: 20px;
+  }
+  .second-main-container-title {
+    text-align: center;
+    font-size: 25px;
+  }
+  .second-main-container-img {
+    width: 300px;
+    height: 200px;
+  }
+  .second-main-text {
+    text-align: center;
+    padding-top: 45px;
+    font-weight: bolder;
+  }
+  .vermelho {
+    color: red;
+  }
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3aa6b9;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-footer {
+    width: 150px;
+  }
+  .footer-text {
+    color: white;
+    font-size: 20px;
+  }
+  @media (min-width: 1024px) {
+  }
+  @media (max-width: 780px) and (min-width: 320px) {
+    .pesquisa {
+      width: 300px;
+    }
+  }
+  @media (max-width: 780px) and (min-width: 320px) {
+    .main-content {
+      flex-wrap: wrap;
+      display: flex;
+      column-gap: 20px;
+      padding: 40px;
+      background-color: aqua;
+      justify-content: space-evenly;
+      height: 35vh;
+    }
+    iframe {
+      display: none;
+    }
+    .main-paragrafo {
+      width: 100%;
+      font-size: 15px;
+      font-weight: bold;
+      color: white;
+    }
+    .second-content {
+      margin-top: 300px;
+      display: flex;
+      align-items: center;
+      background-color: aqua;
+      justify-content: space-evenly;
+      height: 30vh;
+      padding-left: 25px;
+    }
+    .second-img {
+      display: none;
+    }
+    .second-main {
+      margin-top: 250px;
+      height: fit-content;
+      background-color: #c176b5;
+      color: white;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      padding-right: 35px;
+      padding-bottom: 35px;
+    }
+    .second-main-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .second-main-container-title {
+      font-size: 15px;
+    }
+    .footer-text {
+      padding: 35px;
+    }
+  }
+  @media (min-width: 720px) and (max-width: 1440px) {
+    .main-content {
+      display: flex;
+      column-gap: 20px;
+      padding: 50px;
+  
+      background-color: aqua;
+      justify-content: space-evenly;
+      height: 35vh;
+    }
+    iframe {
+      width: 560px;
+    }
+    .main-paragrafo {
+      width: 100%;
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+    }
+    .second-content {
+      margin-top: 300px;
+      display: flex;
+      align-items: center;
+      background-color: aqua;
+      justify-content: space-evenly;
+      height: 30vh;
+      padding-left: 25px;
+    }
+  
+    .second-main {
+      margin-top: 250px;
+      height: fit-content;
+      background-color: #c176b5;
+      color: white;
+      align-items: center;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      row-gap: 10px;
+      padding-right: 35px;
+      padding-bottom: 35px;
+    }
+    .second-main-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .second-main-container-title {
+      font-size: 15px;
+    }
+    .footer-text {
+      padding: 35px;
+    }
+  }
+  
+
+  * {
+    font-family: poppins;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3aa6b9;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  .logo {
+    width: 100px;
+    padding-left: 25px;
+  }
+  .pesquisa {
+    border: 2px solid transparent;
+    border-radius: 20px;
+    width: 450px;
+    padding: 15px;
+  }
+  .nav-ul {
+    display: flex;
+    list-style: none;
+    column-gap: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  a {
+    text-decoration: none;
+  }
+  a:hover {
+    font-size: 23px;
+    transition: linear 0.5s;
+  }
+  .rosa {
+    color: #ff9eaa;
+  }
+  
+  .branco {
+    color: white;
+  }
+  .amarelo {
+    color: #e9b824;
+  }
+  body {
+    background-image: url(imagnes/visualizacao-3d-das-pecas-do-quebra-cabeca.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+  
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .main-text {
+    padding: 80px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+  }
+  .azul {
+    color: #3aa6b9;
+  }
+  .verde {
+    color: #0ec259;
+  }
+  
+  .main-content {
+    display: flex;
+    padding: 50px;
+    background-color: aqua;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: white;
+    font-size: 25px;
+    row-gap: 40px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  form {
+    display: flex;
+  
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+  }
+  input {
+    width: 300px;
+    padding: 15px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+  }
+  .main-paragrafo {
+    width: 45%;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+  }
+  h3 {
+    font-size: 40px;
+    color: purple;
+  }
+  
+  iframe {
+    border-radius: 10px;
+  }
+  .second-content {
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    justify-content: space-evenly;
+    height: 30vh;
+  }
+  .second-img {
+    height: 60vh;
+  
+    padding-bottom: 200px;
+  }
+  .second-main {
+    background-color: #c176b5;
+    height: 55vh;
+    margin-top: 250px;
+    color: white;
+    font-size: 40px;
+    display: flex;
+    column-gap: 20px;
+    padding-right: 35px;
+  }
+  .second-main-container {
+    display: flex;
+    margin-top: 25px;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 450px;
+    padding-right: 50px;
+    padding-top: 35px;
+    background-color: #3aa6b9;
+    justify-content: center;
+    border-radius: 20px;
+  }
+  .second-main-container-title {
+    text-align: center;
+    font-size: 25px;
+  }
+  .second-main-container-img {
+    width: 300px;
+    height: 200px;
+  }
+  .second-main-text {
+    text-align: center;
+    padding-top: 45px;
+    font-weight: bolder;
+  }
+  .vermelho {
+    color: red;
+  }
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3aa6b9;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-footer {
+    width: 150px;
+  }
+  .footer-text {
+    color: white;
+    font-size: 20px;
+  }
+  @media (min-width: 1024px) {
+  }
+  @media (max-width: 780px) and (min-width: 320px) {
+    .pesquisa {
+      width: 300px;
+    }
+  }
+  @media (max-width: 780px) and (min-width: 320px) {
+    iframe {
+      display: none;
+    }
+    .main-paragrafo {
+      width: 100%;
+      font-size: 15px;
+      font-weight: bold;
+      color: white;
+    }
+    .second-content {
+      margin-top: 300px;
+      display: flex;
+      align-items: center;
+      background-color: aqua;
+      justify-content: space-evenly;
+      height: 30vh;
+      padding-left: 25px;
+    }
+    .second-img {
+      display: none;
+    }
+    .second-main {
+      margin-top: 250px;
+      height: fit-content;
+      background-color: #c176b5;
+      color: white;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+      padding-right: 35px;
+      padding-bottom: 35px;
+    }
+    .second-main-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .second-main-container-title {
+      font-size: 15px;
+    }
+    .footer-text {
+      padding: 35px;
+    }
+  }
+  @media (min-width: 720px) and (max-width: 1440px) {
+    iframe {
+      width: 560px;
+    }
+    .main-paragrafo {
+      width: 100%;
+      font-size: 20px;
+      font-weight: bold;
+      color: white;
+    }
+    .second-content {
+      margin-top: 300px;
+      display: flex;
+      align-items: center;
+      background-color: aqua;
+      justify-content: space-evenly;
+      height: 30vh;
+      padding-left: 25px;
+    }
+  
+    .second-main {
+      margin-top: 250px;
+      height: fit-content;
+      background-color: #c176b5;
+      color: white;
+      align-items: center;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      row-gap: 10px;
+      padding-right: 35px;
+      padding-bottom: 35px;
+    }
+    .second-main-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .second-main-container-title {
+      font-size: 15px;
+    }
+    .footer-text {
+      padding: 35px;
+    }
+  }
+  
